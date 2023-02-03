@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #eee;
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 60px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  background: #eee;
+  color: #eee;
+  border-radius: 5px;
+  transition: 500ms ease;
+  background: rgba(0, 0, 0, 0.637);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: rgb(3, 3, 3);
+}
+
+.headline {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+/* Navbar */
+
+.navbar-icone {
+  color: #ffffff;
+  padding-left: 60px;
+
+
+}
+#navbar {
+  width: 100%;
+  background: rgba(22, 50, 68);
+  color: white;
+  height: 80px;
+  position: fixed;
+
+}
+
+#navbar-container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo {
+  width: auto;
+  margin: 0px auto;  
+  font-size: 2rem;
+  float: left;
+  z-index: 100;
+  margin: 0 50px;
+}
+
+#navbar-items {
+  text-align: center;
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+#navbar-items li {
+  padding: 10px;
+}
+
+/*SHOWCASE */
+
+#showcase {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  background-image: url(/img/balanca.jpg);
+  background-position:  center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+
+#showcase-container {
+  text-align: center;
+}
+
+#showcase-container h2 {
+  font-size: 2.5rem;
+}
+
+#showcase-container p {
+  font-size: 1.2rem;
+  padding: 7px 0;
+}
+
+/*
+
+ /* SERIA AREA DOS CLIENTES 
+
+#clients {
+  width: 100%;
+  background: #eee;
+  color: #1111;
+  paddding: 50px;
+
+}
+
+#clients-container {
+  display: grid;
+  grid-template-columns: repeat$4, 1fr);
+  justify-items: center;
+  padding: 15px;
+
+}
+
+.client {
+  display: inline-block;
+  width: 25%;
+
+
+*/
+
+/*  SOBRE / ABOUT  */
+
+#pacotes {
+  position: relative;
+  justify-content: center;
+  width: -min-content;
+  height: 880px;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.pacote1 {
+  position: absolute;
+  width: 285px;
+  height: 480px;
+  left: 427;
+  border-radius: 16px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+pacote2 {
+  position: relative;
+  width: 285px;
+  height: 480px;
+  right: 250px;
+  border-radius: 16px;
+  background: #ee0505;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+/*
+
+#pacotes {
+  width: 100%;
+  background: #eee;
+  color: #11;
+  padding: 50px;
+}
+
+#pacotes-container {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 50px;
+  
+  
+}
+
+*/
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  background: #333;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* TESTIMONIALS */
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  background: rgba(127, 22, 28);
+  padding: 15px;
+  margin: 30px 0;
+  border-radius: 20px;
+}
+
+#testimonials {
+  width: 100%;
+  background: #eee;
+  color: #111;
+  padding: 50px;
+}
+
+.clientes {
+  color: #eee;
+}
+
+#testimonials-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonial .testimonial-image {
+  height: 200px;
+  width: auto;
+  border-radius: 40%;
+  margin: 15px;
+}
+
+/*quem somos*/
+
+.historia {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  background: rgba(127, 22, 28);
+  padding: 15px;
+  margin: 30px 0;
+  border-radius: 20px;
+}
+
+#testimonials {
+  width: 100%;
+  background: #eee;
+  color: #111;
+  padding: 50px;
+}
+
+.clientes {
+  color: #eee;
+}
+
+#testimonials-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* PORTIFÓLIO */
+
+#container-area {
+  width: 100%;
+  margin: auto;
+  padding: 50px;
+  background: #eee;
+}
+
+#gallery-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  justify-items: center;
+}
+
+.gallery-image {
+  display: inline-block;
+  width: 540px;
+  height: 360px;
+  border-radius: 20px;
+}
+
+/* RODAPÉ - FOOTER */
+
+#footer {
+  background: rgba(22, 50, 68);
+  color: #eee;
+  padding: 15px;
+  text-align: center;
+  font-size: 13px;
+}
